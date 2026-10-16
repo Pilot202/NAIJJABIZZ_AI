@@ -1,0 +1,9 @@
+{
+  "supplier": "ABC Distributors",
+  "items": [
+    {"name": "Rice", "quantity": 10, "unit": "bag", "unit_price": 85000, "line_total": 850000},
+    {"name": "Vegetable Oil", "quantity": 20, "unit": "carton", "unit_price": 20000, "line_total": 400000},
+    {"name": "Peak Milk", "quantity": 15, "unit": "carton", "unit_price": 12000, "line_total": 180000}
+  ],
+  "total": 1430000
+}

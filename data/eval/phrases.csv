@@ -1,0 +1,11 @@
+# Test commands for scripts/eval_intent.py. Lines starting with # are ignored.
+# Columns: language,text,expected_intent,expected_product,expected_quantity,expected_total
+# English examples are filled in. ADD 10-15 rows each for yo, ha, ig written by native speakers
+# (use real market phrasing, amounts and product names). Do not rely on machine-translated phrases.
+language,text,expected_intent,expected_product,expected_quantity,expected_total
+en,I just bought 50 bags of rice for 4 million naira,add_inventory,rice,50,4000000
+en,I bought 15 cartons of Indomie for 120000 naira,add_inventory,indomie,15,120000
+en,Add 20 bags of rice to my inventory,add_inventory,rice,20,
+en,I just sold five bottles of Coke,record_sale,coke,5,
+en,I paid 15000 for transport,record_expense,,,15000
+en,How much rice do I have left?,query,,,

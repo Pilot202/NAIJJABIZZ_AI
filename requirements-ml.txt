@@ -1,0 +1,11 @@
+# Heavy dependencies, only needed when ASR_BACKEND=transformers or OCR_BACKEND=tesseract|easyocr.
+# (The N-ATLaS LLM is served separately with vLLM, so it is NOT installed here.)
+-r requirements.txt
+torch
+transformers>=4.40
+soundfile
+pillow
+pytesseract
+easyocr
+opencv-python-headless
+numpy

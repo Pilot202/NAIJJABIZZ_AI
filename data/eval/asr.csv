@@ -1,0 +1,3 @@
+# For scripts/eval_asr.py. Put recordings in data/eval/audio/. Lines starting with # are ignored.
+# Columns: audio_file,language,reference_transcript  (reference written by a native speaker)
+audio_file,language,reference_transcript
